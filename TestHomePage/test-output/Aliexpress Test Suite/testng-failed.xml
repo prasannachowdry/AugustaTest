@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Aliexpress Test Suite]">
+  <test name="Home Page Test(failed)">
+    <classes>
+      <class name="Augusta.code.test.TestHomePage.HomePageTest3">
+        <methods>
+          <include name="setUp1"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="tearDown1"/>
+          <include name="homePageHeader_BrandsSectionTest"/>
+        </methods>
+      </class> <!-- Augusta.code.test.TestHomePage.HomePageTest3 -->
+      <class name="Augusta.code.test.TestHomePage.HomePageTest2">
+        <methods>
+          <include name="setUp1"/>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="tearDown1"/>
+        </methods>
+      </class> <!-- Augusta.code.test.TestHomePage.HomePageTest2 -->
+    </classes>
+  </test> <!-- Home Page Test(failed) -->
+</suite> <!-- Failed suite [Aliexpress Test Suite] -->

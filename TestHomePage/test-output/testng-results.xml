@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Aliexpress Test Suite" duration-ms="26347" started-at="2017-11-18T10:13:59Z" finished-at="2017-11-18T10:14:25Z">
+    <groups>
+    </groups>
+    <test name="Home Page Test" duration-ms="26347" started-at="2017-11-18T10:13:59Z" finished-at="2017-11-18T10:14:25Z">
+      <class name="Augusta.code.test.TestHomePage.Header_LogoSectionTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Augusta.code.test.TestHomePage.Header_LogoSectionTest@6eebc39e]" name="setUp" is-config="true" duration-ms="818" started-at="2017-11-18T15:44:13Z" finished-at="2017-11-18T15:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageHeader_LogoBottomTextTest()[pri:0, instance:Augusta.code.test.TestHomePage.Header_LogoSectionTest@6eebc39e]" name="homePageHeader_LogoBottomTextTest" duration-ms="7668" started-at="2017-11-18T15:44:14Z" finished-at="2017-11-18T15:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageHeader_LogoBottomTextTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Augusta.code.test.TestHomePage.Header_LogoSectionTest@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2017-11-18T15:44:21Z" finished-at="2017-11-18T15:44:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageHeader_LogoBottomTextTest status=SUCCESS method=Header_LogoSectionTest.homePageHeader_LogoBottomTextTest()[pri:0, instance:Augusta.code.test.TestHomePage.Header_LogoSectionTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="homePageHeader_LogoDisplayTest()[pri:0, instance:Augusta.code.test.TestHomePage.Header_LogoSectionTest@6eebc39e]" name="homePageHeader_LogoDisplayTest" duration-ms="1566" started-at="2017-11-18T15:44:21Z" finished-at="2017-11-18T15:44:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageHeader_LogoDisplayTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Augusta.code.test.TestHomePage.Header_LogoSectionTest@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2017-11-18T15:44:23Z" finished-at="2017-11-18T15:44:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageHeader_LogoDisplayTest status=SUCCESS method=Header_LogoSectionTest.homePageHeader_LogoDisplayTest()[pri:0, instance:Augusta.code.test.TestHomePage.Header_LogoSectionTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="homePageHeader_LogoURLStatusTest()[pri:0, instance:Augusta.code.test.TestHomePage.Header_LogoSectionTest@6eebc39e]" name="homePageHeader_LogoURLStatusTest" duration-ms="2666" started-at="2017-11-18T15:44:23Z" finished-at="2017-11-18T15:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageHeader_LogoURLStatusTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Augusta.code.test.TestHomePage.Header_LogoSectionTest@6eebc39e]" name="getResult" is-config="true" duration-ms="1" started-at="2017-11-18T15:44:25Z" finished-at="2017-11-18T15:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageHeader_LogoURLStatusTest status=SUCCESS method=Header_LogoSectionTest.homePageHeader_LogoURLStatusTest()[pri:0, instance:Augusta.code.test.TestHomePage.Header_LogoSectionTest@6eebc39e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown1()[pri:0, instance:Augusta.code.test.TestHomePage.Header_LogoSectionTest@6eebc39e]" name="tearDown1" is-config="true" duration-ms="67" started-at="2017-11-18T15:44:25Z" finished-at="2017-11-18T15:44:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+      </class> <!-- Augusta.code.test.TestHomePage.Header_LogoSectionTest -->
+      <class name="Augusta.code.test.TestHomePage.MenClothingPageTest">
+        <test-method status="PASS" signature="settingBrowserDefaults()[pri:0, instance:Augusta.code.test.TestHomePage.MenClothingPageTest@4dfa3a9d]" name="settingBrowserDefaults" is-config="true" duration-ms="1821" started-at="2017-11-18T15:43:59Z" finished-at="2017-11-18T15:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingBrowserDefaults -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:Augusta.code.test.TestHomePage.MenClothingPageTest@4dfa3a9d]" name="test2" duration-ms="4435" started-at="2017-11-18T15:44:01Z" finished-at="2017-11-18T15:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Augusta.code.test.TestHomePage.MenClothingPageTest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="72" started-at="2017-11-18T15:44:05Z" finished-at="2017-11-18T15:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Augusta.code.test.TestHomePage.MenClothingPageTest -->
+      <class name="Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest">
+        <test-method status="PASS" signature="setUp1()[pri:0, instance:Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest@146ba0ac]" name="setUp1" is-config="true" duration-ms="188" started-at="2017-11-18T15:43:59Z" finished-at="2017-11-18T15:43:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest@146ba0ac]" name="setUp" is-config="true" duration-ms="950" started-at="2017-11-18T15:44:05Z" finished-at="2017-11-18T15:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageSubHeader_BuyerProtectionLinkTest()[pri:0, instance:Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest@146ba0ac]" name="homePageSubHeader_BuyerProtectionLinkTest" duration-ms="4624" started-at="2017-11-18T15:44:06Z" finished-at="2017-11-18T15:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSubHeader_BuyerProtectionLinkTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest@146ba0ac]" name="getResult" is-config="true" duration-ms="10" started-at="2017-11-18T15:44:11Z" finished-at="2017-11-18T15:44:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageSubHeader_BuyerProtectionLinkTest status=SUCCESS method=Header_SubHeaderSectionTest.homePageSubHeader_BuyerProtectionLinkTest()[pri:0, instance:Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest@146ba0ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="homePageSubHeader_BuyerProtectionTest()[pri:0, instance:Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest@146ba0ac]" name="homePageSubHeader_BuyerProtectionTest" duration-ms="1551" started-at="2017-11-18T15:44:11Z" finished-at="2017-11-18T15:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSubHeader_BuyerProtectionTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest@146ba0ac]" name="getResult" is-config="true" duration-ms="0" started-at="2017-11-18T15:44:13Z" finished-at="2017-11-18T15:44:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homePageSubHeader_BuyerProtectionTest status=SUCCESS method=Header_SubHeaderSectionTest.homePageSubHeader_BuyerProtectionTest()[pri:0, instance:Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest@146ba0ac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown1()[pri:0, instance:Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest@146ba0ac]" name="tearDown1" is-config="true" duration-ms="68" started-at="2017-11-18T15:44:13Z" finished-at="2017-11-18T15:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest@146ba0ac]" name="tearDown" is-config="true" duration-ms="314" started-at="2017-11-18T15:44:25Z" finished-at="2017-11-18T15:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest -->
+    </test> <!-- Home Page Test -->
+  </suite> <!-- Aliexpress Test Suite -->
+</testng-results>

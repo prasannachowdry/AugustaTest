@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest">
+        <methods>
+          <include name="setUp1"/>
+          <include name="setUp"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="tearDown1"/>
+          <include name="homePageSubHeader_BuyerProtectionLinkTest"/>
+        </methods>
+      </class> <!-- Augusta.code.test.TestHomePage.Header_SubHeaderSectionTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
