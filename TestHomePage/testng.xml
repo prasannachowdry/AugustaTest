@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Aliexpress Test Suite" verbose="5">
+<suite name="Aliexpress Test Suite" verbose="1">
 
-<!--    <listeners> -->
-<!--          <listener class-name="com.easy.TestNGCustomReportListener" /> -->
-<!--     </listeners> -->
-    <test name="Home Page Test">
-<!--         <classes> -->
-<!--             <class name="Augusta.code.test.TestHomePage.Header_BrandBannerSectionTest" /> -->
-<!--             <class name="Augusta.code.test.TestHomePage.HomePageTest2" /> -->
-<!--             <class name="Augusta.code.test.TestHomePage.HomePageTest3" /> -->
-<!--         </classes> -->
+	<test name="Home Page Test">
+		<classes>
+			<class name="Augusta.code.test.TestHomePage.Header_LogoSectionTest" />
+			<!-- <class name="Augusta.code.test.TestHomePage.HomePageTest2" /> -->
+			<!-- <class name="Augusta.code.test.TestHomePage.HomePageTest3" /> -->
+		</classes>
 
-	<packages>
-		<package name="Augusta.code.test.TestHomePage"/>
-	
-	</packages>
 
-    </test>
+		<!-- <packages> -->
+		<!-- <package name="Augusta.code.test.TestHomePage"/> -->
+
+		<!-- </packages> -->
+
+	</test>
 </suite>
