@@ -35,7 +35,8 @@ public class ReadEnvironment {
 		Browser = p.getProperty("Browser");
 
 		if (OS.equals("linux") && Browser.equals("Chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/home/prasanna/Downloads/chromedriver");
+			String driverPath = (System.getProperty("user.dir") + "/drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver", driverPath);
 			return driver = new ChromeDriver();
 
 		} else

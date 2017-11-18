@@ -3,17 +3,17 @@
 <suite name="Aliexpress Test Suite" verbose="1">
 
 	<test name="Home Page Test">
-		<classes>
-			<class name="Augusta.code.test.TestHomePage.Header_LogoSectionTest" />
-			<!-- <class name="Augusta.code.test.TestHomePage.HomePageTest2" /> -->
-			<!-- <class name="Augusta.code.test.TestHomePage.HomePageTest3" /> -->
-		</classes>
+<!-- 		<classes> -->
+<!-- 			<class name="Augusta.code.test.TestHomePage.Header_LogoSectionTest" /> -->
+<!-- 			<class name="Augusta.code.test.TestHomePage.HomePageTest2" /> -->
+<!-- 			<class name="Augusta.code.test.TestHomePage.HomePageTest3" /> -->
+<!-- 		</classes> -->
 
 
-		<!-- <packages> -->
-		<!-- <package name="Augusta.code.test.TestHomePage"/> -->
+		<packages>
+		<package name="Augusta.code.test.TestHomePage"/>
 
-		<!-- </packages> -->
+		</packages>
 
 	</test>
 </suite>
