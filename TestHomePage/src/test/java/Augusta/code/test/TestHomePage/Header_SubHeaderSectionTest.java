@@ -42,7 +42,6 @@ public class Header_SubHeaderSectionTest extends ReportGenerationBaseClass {
 
 		HttpURLConnection con = (HttpURLConnection) new URL(bannerURL).openConnection();
 		con.connect();
-		System.out.println(con.getResponseCode());
 		// Checking redirection as href value set with temporary redirect
 		Boolean a = (con.getResponseCode() == HttpURLConnection.HTTP_MOVED_PERM);
 

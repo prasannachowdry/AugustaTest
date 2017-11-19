@@ -24,7 +24,6 @@ public class ReadObjects {
     public By getObjectLocator(String locatorName)
 	{
 		String locatorProperty = p.getProperty(locatorName);
-		System.out.println(locatorProperty.toString());
 		String locatorType = locatorProperty.split(":")[0];
 		String locatorValue = locatorProperty.split(":")[1];
  

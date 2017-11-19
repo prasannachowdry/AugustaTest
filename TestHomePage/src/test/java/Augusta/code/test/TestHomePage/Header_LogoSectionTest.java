@@ -41,11 +41,9 @@ public class Header_LogoSectionTest extends ReportGenerationBaseClass {
 
 		Assert.assertTrue((driver.findElement(readObjects.getObjectLocator("Logo")).isDisplayed()));
 
-//		browserScreenshot.screenshotMethod(driver, "Logo_URL_validation");
+		// browserScreenshot.screenshotMethod(driver, "Logo_URL_validation");
 
 		String bannerURL = driver.findElement(readObjects.getObjectLocator("LogoSection")).getAttribute("href");
-
-		System.out.println(bannerURL);
 
 		HttpURLConnection con = (HttpURLConnection) new URL(bannerURL).openConnection();
 		con.connect();
@@ -57,22 +55,22 @@ public class Header_LogoSectionTest extends ReportGenerationBaseClass {
 		Assert.assertEquals(true, a);
 
 	}
-	
+
 	@Test
 	public void homePageHeader_LogoBottomTextTest() throws IOException {
-		
+
 		Url = environmentProperties.getProperty("HomePageurl");
 
 		driver.get(Url);
-		
+
 		Assert.assertTrue((driver.findElement(readObjects.getObjectLocator("LogoBaseText")).isDisplayed()));
-		
+
 		String logoBaseText = driver.findElement(readObjects.getObjectLocator("LogoBaseText")).getText();
-		
+
 		test = extent.createTest("Bottom text of Logo should be displayed");
-		
-		Assert.assertEquals("Smarter Shopping, Better Living!",logoBaseText);
-		
+
+		Assert.assertEquals("Smarter Shopping, Better Living!", logoBaseText);
+
 	}
 
 }
